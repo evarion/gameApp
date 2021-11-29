@@ -1,15 +1,37 @@
 package gameObjects.vessels;
 
 public class Warship extends Vessel {
-    Warship warship = new Warship();
 
-    public void setWarship(Warship warship) {
-        this.warship = warship;
+
+    public Warship(){
+
+    }
+    public Warship(String name) {
+        this.name = name;
     }
 
-    public void setWarship() {
-        name = "Arabella";
-        typeShip = "Brig";
+    public void repair() {
+
+    }
+
+    public void fight() {
+
+    }
+
+    public void trading() {
+
+    }
+
+    public void drown() {
+
+    }
+
+    public void move() {
+
+    }
+
+    public void boarding() {
 
     }
 }
+

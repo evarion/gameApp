@@ -16,5 +16,11 @@ abstract class Vessel {
 
     int[] cargo = new int[90];
 
-    public abstract void setWarship();
+    public abstract void move();
+    public abstract void fight();
+    public abstract void drown();
+    public abstract void boarding();
+    public abstract void repair();
+    public abstract void trading();
+
 }
